@@ -1,4 +1,4 @@
-# getvigilia-com
+# Vigilia
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-getvigilia-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://getvigilia.com/
+Vigilia provides AI‑powered incident monitoring and observability for live applications. It watches your app, explains problems in plain language, and hands fixes to your AI assistants such as Lovable, Bolt, Cursor, and Claude Code. The platform aims to keep services running smoothly by turning alerts into actionable steps and confirming resolutions with real traffic.
+
+**Areas:** AI · Monitoring · DevOps · Observability · Company
+
+## Vigilia on APIs.io
+
+Everything profiled for Vigilia is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/getvigilia-com/](https://apis.io/providers/getvigilia-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Vigilia Account API](https://apis.io/apis/getvigilia-com/getvigilia-com-account-api/) — Who the token belongs to.
+- [Vigilia Apps API](https://apis.io/apis/getvigilia-com/getvigilia-com-apps-api/) — The apps Vigilia watches for you.
+- [Vigilia Errors API](https://apis.io/apis/getvigilia-com/getvigilia-com-errors-api/) — Every error group Vigilia recorded, diagnosed or not.
+- [Vigilia Incidents API](https://apis.io/apis/getvigilia-com/getvigilia-com-incidents-api/) — Diagnosed problems, in plain language, with a fix prompt.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Vigilia Agentic Access](https://apis.io/agentic-access/getvigilia-com/getvigilia-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [App](https://apis.io/schemas/getvigilia-com/getvigilia-com-app/)
+- [AppHealth](https://apis.io/schemas/getvigilia-com/getvigilia-com-app-health/)
+- [ErrorGroup](https://apis.io/schemas/getvigilia-com/getvigilia-com-error-group/)
+- [Incident](https://apis.io/schemas/getvigilia-com/getvigilia-com-incident/)
+- [IncidentDetail](https://apis.io/schemas/getvigilia-com/getvigilia-com-incident-detail/)
+- [Me](https://apis.io/schemas/getvigilia-com/getvigilia-com-me/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Getvigilia Com Context](https://apis.io/jsonld/getvigilia-com/getvigilia-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Vigilia API Rules](https://apis.io/rules/getvigilia-com/getvigilia-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Vigilia Authentication](https://apis.io/security/getvigilia-com/getvigilia-com-authentication/)
+- [Vigilia Domain Security](https://apis.io/security/getvigilia-com/getvigilia-com-domain-security/)
+- [Vigilia Vulnerability Disclosure](https://apis.io/security/getvigilia-com/getvigilia-com-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://getvigilia.com/)
+- [API reference](https://getvigilia.com/docs)
+- [Terms of service](https://getvigilia.com/terms)
+- [Privacy policy](https://getvigilia.com/privacy)
+- [GitHub](https://github.com/getvigilia)
+
+## API Evangelist rating
+
+**Kin Score 44.2** — developing · rubric 0.27.0 · scored 2026-11-10
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 59.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 25.5 |
+| Access clarity | 21.1 |
+
+**Agent readiness 51.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/getvigilia-com/](https://apis.io/providers/getvigilia-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Vigilia: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/getvigilia-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
